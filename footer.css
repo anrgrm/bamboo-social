@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f8f9fa;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f1f6fe;
+}
+
+.newsletter h2 {
+  color: #37517e;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.newsletter p {
+  margin: 10px 0 30px;
+  color: #444;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.subscribe-form button {
+  background: #47b2e4;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.subscribe-form button:hover {
+  background: #249fd9;
+}
+
+.footer {
+  background: #fff;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column h3,
+.footer-column h4 {
+  color: #37517e;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #47b2e4;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #37517e;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #47b2e4;
+  color: white;
+  border-color: #47b2e4;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #777;
+}
+
+.footer-bottom a {
+  color: #47b2e4;
+  text-decoration: none;
+}

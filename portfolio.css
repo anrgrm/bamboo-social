@@ -1,0 +1,248 @@
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.portfolio-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.portfolio-section h2 {
+  color: #244a77;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.portfolio-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.portfolio-filters {
+  margin-bottom: 40px;
+}
+
+.portfolio-filters button {
+  background-color: #e0e0e0;
+  color: #244a77;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.portfolio-filters button.active,
+.portfolio-filters button:hover {
+  background-color: #244a77;
+  color: white;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.grid-item.tall {
+  grid-row: span 2;
+}
+
+.grid-item.wide {
+  grid-column: span 2;
+} */
+/* 
+
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .portfolio-section {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff;
+    }
+
+    .portfolio-section h2 {
+      color: #244a77;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-section p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .portfolio-filters {
+      margin-bottom: 40px;
+    }
+
+    .portfolio-filters button {
+      background-color: #e0e0e0;
+      color: #244a77;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 5px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .portfolio-filters button.active,
+    .portfolio-filters button:hover {
+      background-color: #244a77;
+      color: white;
+    }
+
+    .image-masonry {
+      column-count: 3;
+      column-gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .image-masonry img {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      display: block;
+      break-inside: avoid;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      .image-masonry {
+        column-count: 2;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .image-masonry {
+        column-count: 1;
+      }
+    } */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 200px);
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+}
+.portfolio-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.portfolio-section h2 {
+  color: #244a77;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.portfolio-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.portfolio-filters {
+  margin-bottom: 40px;
+}
+
+.portfolio-filters button {
+  background-color: #e0e0e0;
+  color: #244a77;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Grid Area Assignments */
+.img1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+.img2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+.img3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.img4 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 6;
+}
+.img5 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+.img6 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 7;
+}
+.img7 {
+  grid-column: 2 / 3;
+  grid-row: 6 / 8;
+}
+.img8 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+.img9 {
+  grid-column: 3 / 4;
+  grid-row: 5 / 7;
+
+}
